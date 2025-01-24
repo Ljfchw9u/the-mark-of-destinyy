@@ -1,0 +1,324 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body and font settings */
+body {
+    font-family: 'Georgia', serif; /* Similar to Plague Tale font */
+    line-height: 1.6;
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #000000; /* Black background */
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #fff; /* White text for title */
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #fff; /* White text for paragraph */
+}
+
+/* Hero Section */
+.hero {
+    background: #000000 url('path-to-hero-image.jpg') no-repeat center center/cover;
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 150px 20px;
+    background-blend-mode: overlay; /* Adding a blend effect with black */
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff; /* White text */
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #fff; /* White text */
+}
+
+/* About Section */
+section {
+    padding: 40px 20px;
+    background-color: #000000; /* Black background */
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff; /* White text */
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #fff; /* White text */
+}
+
+/* Trailer Section */
+.trailer {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.trailer iframe {
+    max-width: 100%;
+    height: 500px;
+}
+
+/* Editions Section */
+.editions {
+    background-color: #000000; /* Black background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.edition-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.edition-card {
+    background-color: #333333; /* Dark gray for card background */
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.edition-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff; /* White text */
+}
+
+.edition-card p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #fff; /* White text */
+}
+
+.edition-card button {
+    background-color: #ffffff; /* White button */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edition-card button:hover {
+    background-color: #ddd; /* Light gray on hover */
+}
+
+/* DLC Section */
+.dlcs {
+    background-color: #000000; /* Black background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.dlc-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dlc-item {
+    background-color: #333333;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.dlc-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff; /* White text */
+}
+
+.dlc-item p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #fff; /* White text */
+}
+
+.dlc-item button {
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dlc-item button:hover {
+    background-color: #ddd;
+}
+
+/* Promotional Gallery Section */
+.promo-gallery {
+    background-color: #000000; /* Black background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.promo-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.promo-image {
+    background-color: #333333;
+    color: white;
+    width: 48%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+/* Social Media Section */
+.social-media {
+    background-color: #000000; /* Black background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.social-links a {
+    color: #ffffff; /* White color for social links */
+    font-size: 1.2rem;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Reviews Section */
+.reviews {
+background-color: #000000; /* Black background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.review-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.review-card {
+    background-color: #333333;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.review-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #fff; /* White text */
+}
+
+.review-card span {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* System Requirements Section */
+.system-requirements {
+    background-color: #000000; /* Black background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.requirements h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #fff; /* White text */
+}
+
+.requirements ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+    color: #fff; /* White text */
+}
+
+.requirements ul li {
+    margin-bottom: 10px;
+}
+
+/* Rating Section */
+.rating {
+    background-color: #333333; /* Dark gray for rating section */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.rating p {
+    font-size: 1.2rem;
+    color: #ffffff; /* White text for rating text */
+}
+
+/* Gallery Section */
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.image-card {
+    background-color: #333333;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.image-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.image-card p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #fff; /* White text */
+}
+
+/* Footer */
+footer {
+    background-color: #000000; /* Black background */
+    color: #888;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #fff; /* White text */
+}
